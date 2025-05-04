@@ -24,7 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5E20DFCA2DC650DC004EAD09 /* Xcode cloud testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xcode cloud testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E20DFCA2DC650DC004EAD09 /* Xcode cloud testing 123.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xcode cloud testing 123.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E20DFD72DC650DD004EAD09 /* Xcode cloud testingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xcode cloud testingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E20DFE12DC650DD004EAD09 /* Xcode cloud testingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xcode cloud testingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -43,6 +43,11 @@
 		5E20DFE42DC650DD004EAD09 /* Xcode cloud testingUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Xcode cloud testingUITests";
+			sourceTree = "<group>";
+		};
+		5EF102902DC7BF290099D06B /* ci_scripts */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ci_scripts;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		5E20DFC12DC650DC004EAD09 = {
 			isa = PBXGroup;
 			children = (
+				5EF102902DC7BF290099D06B /* ci_scripts */,
 				5E20DFCC2DC650DC004EAD09 /* Xcode cloud testing */,
 				5E20DFDA2DC650DD004EAD09 /* Xcode cloud testingTests */,
 				5E20DFE42DC650DD004EAD09 /* Xcode cloud testingUITests */,
@@ -85,7 +91,7 @@
 		5E20DFCB2DC650DC004EAD09 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E20DFCA2DC650DC004EAD09 /* Xcode cloud testing.app */,
+				5E20DFCA2DC650DC004EAD09 /* Xcode cloud testing 123.app */,
 				5E20DFD72DC650DD004EAD09 /* Xcode cloud testingTests.xctest */,
 				5E20DFE12DC650DD004EAD09 /* Xcode cloud testingUITests.xctest */,
 			);
@@ -95,9 +101,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5E20DFC92DC650DC004EAD09 /* Xcode cloud testing */ = {
+		5E20DFC92DC650DC004EAD09 /* Xcode cloud testing 123 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E20DFEB2DC650DD004EAD09 /* Build configuration list for PBXNativeTarget "Xcode cloud testing" */;
+			buildConfigurationList = 5E20DFEB2DC650DD004EAD09 /* Build configuration list for PBXNativeTarget "Xcode cloud testing 123" */;
 			buildPhases = (
 				5E20DFC62DC650DC004EAD09 /* Sources */,
 				5E20DFC72DC650DC004EAD09 /* Frameworks */,
@@ -109,12 +115,13 @@
 			);
 			fileSystemSynchronizedGroups = (
 				5E20DFCC2DC650DC004EAD09 /* Xcode cloud testing */,
+				5EF102902DC7BF290099D06B /* ci_scripts */,
 			);
-			name = "Xcode cloud testing";
+			name = "Xcode cloud testing 123";
 			packageProductDependencies = (
 			);
 			productName = "Xcode cloud testing";
-			productReference = 5E20DFCA2DC650DC004EAD09 /* Xcode cloud testing.app */;
+			productReference = 5E20DFCA2DC650DC004EAD09 /* Xcode cloud testing 123.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5E20DFD62DC650DD004EAD09 /* Xcode cloud testingTests */ = {
@@ -200,7 +207,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5E20DFC92DC650DC004EAD09 /* Xcode cloud testing */,
+				5E20DFC92DC650DC004EAD09 /* Xcode cloud testing 123 */,
 				5E20DFD62DC650DD004EAD09 /* Xcode cloud testingTests */,
 				5E20DFE02DC650DD004EAD09 /* Xcode cloud testingUITests */,
 			);
@@ -258,12 +265,12 @@
 /* Begin PBXTargetDependency section */
 		5E20DFD92DC650DD004EAD09 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5E20DFC92DC650DC004EAD09 /* Xcode cloud testing */;
+			target = 5E20DFC92DC650DC004EAD09 /* Xcode cloud testing 123 */;
 			targetProxy = 5E20DFD82DC650DD004EAD09 /* PBXContainerItemProxy */;
 		};
 		5E20DFE32DC650DD004EAD09 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5E20DFC92DC650DC004EAD09 /* Xcode cloud testing */;
+			target = 5E20DFC92DC650DC004EAD09 /* Xcode cloud testing 123 */;
 			targetProxy = 5E20DFE22DC650DD004EAD09 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -395,11 +402,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 439YTX9L2J;
+				DEVELOPMENT_TEAM = JGY24WS6U2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Testing xcloud Manish";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -410,8 +420,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dextale.Xcode-cloud-testing";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manish.xcodecloudtesting2323;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -423,11 +434,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 439YTX9L2J;
+				DEVELOPMENT_TEAM = JGY24WS6U2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Testing xcloud Manish";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -438,8 +452,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dextale.Xcode-cloud-testing";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manish.xcodecloudtesting2323;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,14 +465,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 439YTX9L2J;
+				DEVELOPMENT_TEAM = JGY24WS6U2;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dextale.Xcode-cloud-testingTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manish.xcodecloudtesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -469,14 +486,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 439YTX9L2J;
+				DEVELOPMENT_TEAM = JGY24WS6U2;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dextale.Xcode-cloud-testingTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manish.xcodecloudtesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -487,13 +506,15 @@
 		5E20DFF22DC650DD004EAD09 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 439YTX9L2J;
+				DEVELOPMENT_TEAM = JGY24WS6U2;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dextale.Xcode-cloud-testingUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manish.xcodecloudtesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -504,13 +525,15 @@
 		5E20DFF32DC650DD004EAD09 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 439YTX9L2J;
+				DEVELOPMENT_TEAM = JGY24WS6U2;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dextale.Xcode-cloud-testingUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manish.xcodecloudtesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -530,7 +553,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E20DFEB2DC650DD004EAD09 /* Build configuration list for PBXNativeTarget "Xcode cloud testing" */ = {
+		5E20DFEB2DC650DD004EAD09 /* Build configuration list for PBXNativeTarget "Xcode cloud testing 123" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E20DFEC2DC650DD004EAD09 /* Debug */,
