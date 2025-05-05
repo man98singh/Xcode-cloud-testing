@@ -6,3 +6,5 @@
 #  Created by Manish singh on 04/05/25.
 #  
 echo " Testing: CI post clone is running"
+brew install cocoapods
+pod install

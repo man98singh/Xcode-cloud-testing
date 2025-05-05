@@ -1,0 +1,6 @@
+framework module Pods_Xcode_cloud_testing_123 {
+  umbrella header "Pods-Xcode cloud testing 123-umbrella.h"
+
+  export *
+  module * { export * }
+}
